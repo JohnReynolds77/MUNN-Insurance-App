@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_margin="@dimen/universal_margin">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#176393">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/universal_margin">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/txtPageTitle"
+                    android:textSize="@dimen/page_title_text"
+                    android:text="@string/home_page_title"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/txtPageTitle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/txtAutoInsurance"
+                    android:textSize="@dimen/general_text"
+                    android:text="@string/auto_insurance"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/txtAutoInsurance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/autoLayout"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="2.5dp"
+                        android:id="@+id/btnAutoNL"
+                        android:textSize="@dimen/button_text"
+                        android:textStyle="bold"
+                        app:backgroundTint="#E10088"
+                        android:text="@string/auto_nl"
+                        style="@style/ThemeOverlay.Material3.Button"/>
+
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="2.5dp"
+                        android:id="@+id/btnAutoNS"
+                        app:backgroundTint="#E10088"
+                        android:textSize="@dimen/button_text"
+                        android:textStyle="bold"
+                        android:text="@string/auto_ns"
+                        style="@style/ThemeOverlay.Material3.Button"/>
+
+                </LinearLayout>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/autoLayout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/txtHomeInsurance"
+                    android:textSize="@dimen/general_text"
+                    android:text="@string/home_insurance"
+                    android:layout_marginTop="@dimen/title_margin"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/txtHomeInsurance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/homeLayout"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="2.5dp"
+                        android:id="@+id/btnHomeNL"
+                        android:textSize="@dimen/button_text"
+                        android:textStyle="bold"
+                        app:backgroundTint="#E10088"
+                        android:text="@string/home_nl"
+                        style="@style/ThemeOverlay.Material3.Button"/>
+
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="2.5dp"
+                        android:id="@+id/btnHomeNS"
+                        android:textSize="@dimen/button_text"
+                        android:textStyle="bold"
+                        app:backgroundTint="#E10088"
+                        android:text="@string/home_ns"
+                        style="@style/ThemeOverlay.Material3.Button"/>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/homeLayout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/txtOrCall"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/general_text"
+                    android:text="@string/or_call"
+                    android:layout_marginTop="@dimen/title_margin"
+                    android:textStyle="normal"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/txtOrCall"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/txtPhoneNumber"
+                    android:textSize="@dimen/general_text"
+                    android:text="@string/phone_num"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

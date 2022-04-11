@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">MUNNInsuranceApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_form">Get Quote Now - HomeNL</string>
+
+    <string name="navheadermunninsurance">MUNN Insurance</string>
+
+
+    <string name="home_page_title">Get a quote online now!</string>
+    <string name="auto_insurance">AUTO INSURANCE</string>
+    <string name="auto_nl">AUTO NL</string>
+    <string name="auto_ns">AUTO NS</string>
+    <string name="home_insurance">HOME INSURANCE</string>
+    <string name="home_nl">HOME NL</string>
+    <string name="home_nl_quote">HOME NL - Get Quote</string>
+    <string name="home_ns">HOME NS</string>
+    <string name="or_call">OR CALL</string>
+    <string name="phone_num">1–844–554–0525</string>
+    <string name="special_discounts_for_our_groups">Special discounts for our groups</string>
+    <string name="about_desc">If you are a member of one of our preferred groups or sectors, please contact us as additional discounts that are not included in the online quote may apply.</string>
+    <string name="about">SPECIAL DISCOUNTS</string>
+    <string name="home">HOME</string>
+    <string name="form">Get Quote Now - Home NL</string>
+    <string name="welcome">Welcome</string>
+    <string name="form_desc">For your convenience, please have your current home insurance policy information at hand.</string>
+    <string name="postal_hint">Postal code of the insured residence</string>
+    <string name="insurance_type_desc">Type of property insurance property</string>
+    <string name="policy_start">When do you need the policy to begin?</string>
+    <string name="year">YEAR</string>
+    <string name="begin">Begin</string>
+    <string name="first_name_applicant">First name/Applicant</string>
+    <string name="last_name">Last name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street_address">Street Address</string>
+    <string name="your_current_insurance_company">Your current insurance company (optional)</string>
+    <string name="dwelling_information">Dwelling Information</string>
+    <string name="items_worth">Content replacement cost\nEstimate the total cost to replace your belongings with new items:appliances, furniture, clothing, bicycles, computers, etc.This is not what the items are worth currently</string>
+    <string name="_dollar">$</string>
+    <string name="distance_to_fire_hydrant">Distance to fire hydrant</string>
+    <string name="distance_to_firehall">Distance to firehall</string>
+    <string name="building_details">Building Details</string>
+    <string name="building_type">Building type</string>
+    <string name="construction_type">Construction type</string>
+    <string name="year_built">Year built</string>
+    <string name="primary_heating_source">Primary heating source</string>
+    <string name="auxiliary_heating_source">Auxiliary Heating Source</string>
+    <string name="burglar_alarm">Burglar Alarm</string>
+    <string name="none">None</string>
+    <string name="local">Local</string>
+    <string name="monitored">Monitored</string>
+    <string name="fire_alarm">Fire alarm</string>
+    <string name="applicant_information">Applicant Information</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="co_applicant">Co-applicant</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="years_with_residential_insurance">Years with residential insurance</string>
+    <string name="number_of_claims_in_the_past_10_years">Number of claims in the past 10 years</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="are_all_members_of_the_household_non_smokers">Are all members of the household non-smokers?</string>
+    <string name="next">Finish - Get Quote</string>
+
+    <string name="invalid_postal_address">Postal address should be at least six characters long</string>
+    <string name="invalid_email">That email does not seem to be valid</string>
+    <string name="invalid_name">That name is does not seem valid.</string>
+    <string name="invalid_phone">A valid phone number should be at least 10 characters long</string>
+    <string name="invalid_year">That does not look like a valid year</string>
+    <string name="invalid_currency">The does not seem correct</string>
+    <string name="invalid_years">Years with insurance is not valid</string>
+
+    <string name="dialog_title">Email Sent</string>
+    <string name="dialog_message">Thank you.\nWe have sent an email with the quote to:</string>
+    <string name="dialog_btn">OKAY!!!</string>
+    <string name="years_at_dwelling">Years at Dwelling</string>
+    <string name="_6">6+</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="number_of_families_occupying_the_dwelling">Number of families occupying the dwelling</string>
+
+
+    <string-array name="property_policy">
+        <item>Home Owner</item>
+        <item>Condominium</item>
+        <item>Tenant</item>
+    </string-array>
+
+    <string-array name="policy_month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+
+    <string-array name="policy_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="fire_hydrant">
+        <item>Within 150m</item>
+        <item>Within 300m</item>
+        <item>Over 300m</item>
+    </string-array>
+
+
+    <string-array name="fire_hall">
+        <item>Within 5km</item>
+        <item>Within 8km</item>
+        <item>Within 13km</item>
+        <item>Over 13km</item>
+    </string-array>
+
+    <string-array name="building_type">
+        <item>Apartment building</item>
+        <item>Commercial building</item>
+        <item>Row/Townhouse - end unit</item>
+        <item>Row/Townhouse - inner unit</item>
+        <item>Detached Home</item>
+        <item>Duplex</item>
+        <item>Triplex</item>
+        <item>Basement apartment</item>
+    </string-array>
+
+
+    <string-array name="construction_type">
+        <item>Solid brick/masonry</item>
+        <item>Wood frame</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="primary_heating">
+        <item>Central Furnace - Gas</item>
+        <item>Central Furnace - Oil</item>
+        <item>Central Furnace - Propane</item>
+        <item>Central Furnace - Wood</item>
+        <item>Electric</item>
+        <item>Hot water/Steam</item>
+        <item>Combination Furnace</item>
+        <item>Solid Fuel</item>
+        <item>Solar</item>
+        <item>Heat Pump</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="auxiliary_heating">
+        <item>None</item>
+        <item>Combination Furnace</item>
+        <item>Furnace Insert</item>
+        <item>Solid Fuel</item>
+        <item>Space Heater - Gas</item>
+        <item>Space Heater - Oil</item>
+        <item>Space Heater - Electric</item>
+        <item>Wood Burning Stove</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+</resources>
